@@ -1,0 +1,9 @@
+[package]
+name = "ace_backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ace_rpc = { path = "../ace_rpc" }
+anyhow = "1"
+tokio = { version = "1", features = ["full"] }

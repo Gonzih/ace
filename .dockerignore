@@ -1,0 +1,6 @@
+target/
+Dockerfile
+fly.toml
+shell.nix
+wasm/target/app*
+ace_runtime/tests/fixtures/*/target

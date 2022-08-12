@@ -1,0 +1,2 @@
+build:
+	tsc ace.ts

@@ -1,0 +1,12 @@
+---
+nats:
+  host: ace-nats.internal
+  port: 4222
+  username: ace_user
+  password: rn>s05[htBP0}2|mw.!
+naia:
+  host: localhost
+  udp_port: 14191
+  webrtc_port:  14192
+  advertise_addr_udp: http://localhost:14191
+  advertise_addr_webrtc: http://localhost:14192

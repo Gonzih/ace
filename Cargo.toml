@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "ace_game_client",
+    "ace_game_server",
+    "ace_game_shared",
+    "ace_runtime",
+    "ace_rpc",
+    "ace_args",
+    "ace_backend",
+    "ace_components",
+]

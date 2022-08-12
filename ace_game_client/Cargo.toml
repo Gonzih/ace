@@ -1,0 +1,32 @@
+[package]
+name = "ace_game_client"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[[bin]]
+name = "app"
+path = "src/main.rs"
+
+[lib]
+name = "app"
+path = "src/lib.rs"
+crate-type = ["cdylib", "rlib"]
+
+
+[dependencies]
+bevy = "0.7"
+serde = "1.0"
+rand = "*"
+naia-bevy-client = "0.10.1"
+ace_game_shared = {path = "../ace_game_shared"}
+getrandom = {version="0.2", features=["wasm-bindgen"]}
+cfg-if = { version = "1.0"}
+ace_args = {path = "../ace_args"}
+# ace_components = { path = "../ace_components" }
+
+
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+wasm-bindgen = { version = "0.2" }
