@@ -6,7 +6,7 @@ edition = "2021"
 [dependencies]
 bevy = "0.7"
 log = "0.4"
-deno_core = "0.140"
+deno_core = "0.146"
 anyhow = "1.0"
 serde = "1.0"
 serde_json = "1"
