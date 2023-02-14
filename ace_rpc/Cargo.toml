@@ -6,7 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-nats = "0.21"
+nats = "0.24"
 anyhow = "1"
 ace_args = { path = "../ace_args" }
 bincode = "1.3"
